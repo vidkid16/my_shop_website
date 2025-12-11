@@ -47,6 +47,7 @@ header nav li {
 }
 .card-grid {
 	display: flex;
+	flex-wrap: wrap;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
 	gap: 20px;
 	justify-content: center;
@@ -121,3 +122,4 @@ body.dark-mode .headlight {
 	box-shadow: 0 0 40px 20px rgba(255, 255, 200, 0.8); /* Simulate light beam */
 
 }
+
