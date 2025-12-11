@@ -49,7 +49,7 @@ header nav li {
 	display: flex;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
 	gap: 20px;
-	justify-items: center;
+	justify-content: center;
 }
 .card {
 	flex: 1;
@@ -119,4 +119,5 @@ body.dark-mode .card {
 body.dark-mode .headlight {
 	background-color: #fff; /* Bright white light */
 	box-shadow: 0 0 40px 20px rgba(255, 255, 200, 0.8); /* Simulate light beam */
+
 }
