@@ -52,6 +52,12 @@ header nav li {
 	gap: 20px;
 	justify-content: center;
 }
+@media (max-width: 600px) {
+    .card {
+        flex: 1 1 100%; /* grow/shrink, width 100% */
+        max-width: 100%;
+    }
+}
 .card {
 	flex: 1;
 	border: 1px solid #ddd;
@@ -122,4 +128,5 @@ body.dark-mode .headlight {
 	box-shadow: 0 0 40px 20px rgba(255, 255, 200, 0.8); /* Simulate light beam */
 
 }
+
 
