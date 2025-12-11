@@ -61,6 +61,17 @@ header nav li {
 	text-align: center;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+@media (max-width: 600px) {
+    .card-grid {
+        flex-direction: column; /* stack cards vertically */
+        align-items: center; /* center cards */
+    }
+
+    .card {
+        flex: 1 1 90%; /* cards take 90% of container width */
+        max-width: none; /* remove max-width restriction */
+    }
+}
 .card:hover {
 	transform: translateY(-5px);
 	box-shadow: 0 8px 20px rgba(0, 0, 0, 1.5);
@@ -89,12 +100,6 @@ body.dark-mode .card {
 	background-color: #333; /* Dark background for the card */
 	color: white; /* White text */
 	box-shadow: 0 40px 10px rgba(255, 255, 255, 0.1); /* Lighter shadow */
-}
-@media (max-width: 600px) {
-    .card {
-        flex: 1 1 100%; /* grow/shrink, width 100% */
-        max-width: 100%;
-    }
 }
 /* Headlights container*/
 #headlights {
@@ -128,6 +133,7 @@ body.dark-mode .headlight {
 	box-shadow: 0 0 40px 20px rgba(255, 255, 200, 0.8); /* Simulate light beam */
 
 }
+
 
 
 
