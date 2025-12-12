@@ -34,6 +34,7 @@ header nav li {
 		background-color: #888;
 		padding: 50px;
 		z-index: 1000;
+		text-align: center;
 }
 #services {
 	padding: 50px 20px;
@@ -133,6 +134,7 @@ body.dark-mode .headlight {
 	box-shadow: 0 0 40px 20px rgba(255, 255, 200, 0.8); /* Simulate light beam */
 
 }
+
 
 
 
